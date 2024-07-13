@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+header{
+  padding: 20px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: italic;
+  background-image: url("../../assets/img/cabecera1.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover*/
+}
+
+
+main{
+  background-color:rgb(227, 163, 191);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+table{
+  margin: auto;
+}
+
+.dulces{
+  width: 250px;
+  margin: 40px;
+}
+
+.tortas{
+  font-size: 25px;
+}
+
+.descripcionSabores{
+  width: 300px;
+  padding-top: 6px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+footer{
+  padding: 20px;
+  background-image: url("../../assets/img/cabecera1.jpg");
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#enlaceInstagram{  
+  width: 30px;
+  height: 30px;
+}
+
+.instagram{
+  width: 100%;
+  margin-left: 20px;
+}
